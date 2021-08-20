@@ -1,0 +1,252 @@
+/*
+*
+* =====================
+* GENERAL
+* =====================
+*
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*
+*
+* =====================
+* FONTS
+* =====================
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+/*
+*
+* =====================
+* BODY
+* =====================
+*
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+*
+* =====================
+* HEADER
+* =====================
+*
+*/
+
+.main {
+    width: 70%;
+    margin: 1.5rem auto;
+}
+
+.main-top {
+    height: 5.62rem;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    background: #00AEFF;
+    padding: 0.8rem 1.9rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    border-color: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.btn-rounded {
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #252525;
+    opacity: 0.9;
+}
+
+@media screen and (max-width:600px) {
+    img {
+        width: 70px;
+    }
+    
+    .btn {
+        display: inline-block;
+        color: white;
+        background: #00AEFF;
+        padding: 0.8rem 1.9rem;
+        font-size: .7rem;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    img {
+        width: 50px;
+    }
+    
+    .btn {
+        display: inline-block;
+        color: white;
+        background: #00AEFF;
+        padding: 0.8rem 1.6rem;
+        font-size: .5rem;
+    }
+    
+}
+
+/*
+*
+* =====================
+* CONTENT
+* =====================
+*
+*/
+
+.main-middle .title {
+    color: #747E80;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.form {
+    width: 60%;
+    background: #FAFAFA;
+    margin-top: 2rem;
+}
+
+.container {
+    padding: .5rem 2rem;
+}
+
+.main-middle .two {
+    font-size: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-group input, select {
+    padding: .7rem;
+    border: 1px solid #DDDDDD;
+    margin-bottom: .7rem;
+    outline: none;
+}
+
+.form-group label {
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+
+#file, .select {
+    margin-bottom: 2rem;
+}
+
+.profile {
+    margin-top: 2rem;
+}
+
+.submit {
+    margin: 2rem;
+}
+
+@media screen and (max-width:1400px) {
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .main-middle .title {
+        color: #747E80;
+        letter-spacing: .2rem;
+        font-size: 1.7rem;
+        margin-top: 2rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+        
+    .main-middle .two {
+        font-size: 1.3rem;
+    } 
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    .main-middle .title {
+        color: #747E80;
+        letter-spacing: .2rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+        
+    .main-middle .two {
+        font-size: 1rem;
+    } 
+    
+    
+}
+
+@media screen and (max-width:375px) {
+    .main-middle .title {
+        color: #747E80;
+        letter-spacing: .2rem;
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .form {
+        width: 100%;
+    }
+        
+    .main-middle .two {
+        font-size: .8rem;
+    } 
+    
+    
+}
+
+/*
+*
+* =====================
+* FOOTER
+* =====================
+*
+*/
+
+.footer {
+    color: white;
+    background: hsl(0, 0%, 15%);
+    padding: 2rem;
+    text-align: center;
+}
